@@ -7,19 +7,18 @@
     <title>Code Breaker</title>
 </head>
 <body>
-    <script src="/index.js"></script>
-    <div id="container">
-        <p id="clock-el"></p>
-        <p id="guess-el"></p>
-    </div>
+    <div id="score-el"></div>
+    <div id="clock-el"></div>
+    <div id="guess-el"></div>
     <p id="result-el"></p>
     <div id="button-container">
         <button id="button1" onclick="click1()">1</button>
         <button id="button2" onclick="click2()">2</button>
         <button id="button3" onclick="click3()">3</button>
         <button id="buttonSubmit" onclick="submit()">Submit</button>
-        <button id="buttonClear" onclick="clear()">Clear</button>
+        <button id="buttonClear" onclick="clearInputs()">Clear</button>
     </div>
-    <div id="eventLog"></div>
+    <ul id="eventLog"></ul>
+    <script src="/index.js"></script>
 </body>
 </html>
